@@ -1,0 +1,8 @@
+node_modules/
+dist/
+release/
+data/
+.vscode/settings.json
+.env
+coverage/
+npm-debug.log*

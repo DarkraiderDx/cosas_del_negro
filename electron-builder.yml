@@ -1,0 +1,14 @@
+appId: bo.siat.facturacion
+productName: Facturacion SIAT
+directories:
+  output: release
+files:
+  - dist/**/*
+  - package.json
+asar: true
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
